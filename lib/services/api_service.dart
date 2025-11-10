@@ -11,7 +11,8 @@ class ApiService {
   // Para iOS Simulator: usa 'http://localhost:3000/api'
   // Para dispositivo físico: usa la IP de tu máquina, ej: 'http://192.168.1.100:3000/api'
   // static const String baseUrl = 'http://localhost:3000/api';
-  static const String baseUrl = 'http://10.0.2.2:3000/api';
+  // static const String baseUrl = 'http://10.0.2.2:3000/api';
+  static const String baseUrl = 'https://final-seguridad-api.onrender.com/api';
 
   late Dio _dio;
 
